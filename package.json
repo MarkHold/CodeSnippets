@@ -1,0 +1,23 @@
+{
+  "name": "codesnippets",
+  "version": "1.0.0",
+  "description": "noneed",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "node": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "non"
+  },
+  "keywords": [
+    "non"
+  ],
+  "author": "markus",
+  "license": "UNLICENSED"
+}
