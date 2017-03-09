@@ -6,7 +6,7 @@
  */
 
 var express = require('express');
-var port = 3000;
+var port = 4000;
 app = express();
 
 
@@ -14,9 +14,11 @@ app = express();
 //app.get takes in 2 parameters, the url that you want to map and the function that wanna get
 
 // req = requirment, res = response
+
+
 app.get('/', function(req, res) {
 
-    res.send('hello brrt');
+    res.send(index.html);
 
 });
 
@@ -24,4 +26,4 @@ app.get('/', function(req, res) {
 
 
 app.listen(port);
-console.log("listening on port 3000!");
+console.log("listening on port "+port +"!");
